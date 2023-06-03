@@ -1,0 +1,8 @@
+.portfolio-container {
+    background-image: url("./assets/background-square-blur25-dark.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column wrap;
+}
