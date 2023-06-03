@@ -1,7 +1,8 @@
 import React from "react";
+import { Portfolio } from "./Portfolio";
 
 function App() {
-  return <div>To be implemented</div>;
+  return <Portfolio />;
 }
 
 export default App;
