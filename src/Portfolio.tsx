@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar } from "./components/Navbar/Navbar";
 import "./Portfolio.css";
 import { Bio } from "./components/Bio/Bio";
+import { PortfolioRight } from "./components/PortfolioRight";
 
 export const Portfolio = () => {
   return (
@@ -9,7 +10,7 @@ export const Portfolio = () => {
       <Navbar />
       <div className="portfolio-content">
         <Bio />
-        <p>BLAH BLAH BLAH</p>
+        <PortfolioRight />
       </div>
     </div>
   );

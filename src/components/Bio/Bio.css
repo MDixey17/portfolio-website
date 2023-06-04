@@ -8,16 +8,22 @@
 
 .bio-container img {
     border-radius: 50%;
-    height: 10vh;
-    width: 10vh;
+    height: 15vw;
+    width: 15vw;
 }
 
 .bio-container h1 {
     margin: 0;
     padding: 0;
+    color: var(--th-blue-one);
 }
 
 .bio-container h2 {
     margin: 0;
     padding: 0;
+    color: var(--th-white)
+}
+
+.bio-container p {
+    color: var(--th-grey-two)
 }

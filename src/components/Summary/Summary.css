@@ -1,0 +1,18 @@
+.summary-container {
+    font-size: 16px;
+    width: 35%;
+}
+
+.summary-container a {
+    text-decoration: none;
+    color: var(--th-white);
+    font-weight: 700;
+}
+
+.summary-container p {
+    color: var(--th-grey-two);
+}
+
+.summary-container a:hover {
+    color: var(--th-blue-one);
+}

@@ -1,6 +1,6 @@
 .navbar-wrapper {
     background-color: black;
-    color: white;
+    color: var(--th-white);
     width: 100%;
     min-height: 8vh;
     display: flex;
@@ -36,11 +36,11 @@
 
 .navbar-right-container a {
     text-decoration: none;
-    color: white;
+    color: var(--th-white);
 }
 
 .navbar-right-container a:hover {
-    color: cyan;
+    color: var(--th-blue-one);
 }
 
 .navbar-social-logo {
