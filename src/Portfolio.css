@@ -3,6 +3,13 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.portfolio-content {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    color: white;
 }

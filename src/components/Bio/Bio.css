@@ -1,0 +1,23 @@
+.bio-container {
+    display: flex;
+    flex-flow: column wrap;
+    position: sticky;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.bio-container img {
+    border-radius: 50%;
+    height: 10vh;
+    width: 10vh;
+}
+
+.bio-container h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.bio-container h2 {
+    margin: 0;
+    padding: 0;
+}
