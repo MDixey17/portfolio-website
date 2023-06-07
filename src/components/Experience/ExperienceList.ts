@@ -1,6 +1,24 @@
 import TargetLogo from "../../assets/target.png";
 import MLBLogo from "../../assets/mlb.png";
 import GELogo from "../../assets/gopheresports.png";
+import { TechStackChip } from "../../models/TechStackChip";
+
+// Icons and Images
+import KotlinIcon from "../../assets/icons/kotlin.png";
+import MongoDb from "../../assets/icons/mongodb.svg";
+import {
+  faJava,
+  faReact,
+  faJsSquare,
+} from "@fortawesome/free-brands-svg-icons";
+import TypeScript from "../../assets/icons/typescript.png";
+import Cypress from "../../assets/icons/cypress.png";
+import Playwright from "../../assets/icons/playwright.png";
+import UnrealEngine from "../../assets/icons/unrealengine.svg";
+import Photoshop from "../../assets/icons/photoshop.png";
+import Lightroom from "../../assets/icons/lightroom.png";
+import DavinciResolve from "../../assets/icons/davinciresolve.png";
+import Storybook from "../../assets/icons/storybook.svg";
 
 type ExperienceDetails = {
   employer: string;
@@ -8,7 +26,7 @@ type ExperienceDetails = {
   location: string;
   timespan: string;
   bulletPoints: string[];
-  techstack: string[];
+  techstack: TechStackChip[];
   employerImage?: string;
 };
 
@@ -26,15 +44,15 @@ export const experienceList: ExperienceDetails[] = [
       "Contributed to a Slack Bot project with fellow TLPs to improve the Target workspace.",
     ],
     techstack: [
-      "Kotlin",
-      "MongoDB",
-      "Spring Boot",
-      "Java",
-      "React",
-      "TypeScript",
-      "Ag-Grid",
-      "Cypress",
-      "Playwright",
+      { name: "Kotlin", avatar: KotlinIcon },
+      { name: "MongoDB", avatar: MongoDb },
+      { name: "Spring Boot", avatar: "</>" },
+      { name: "Java", avatar: faJava, color: "#f89820" },
+      { name: "React", avatar: faReact, color: "#61dbfb" },
+      { name: "TypeScript", avatar: TypeScript },
+      { name: "Ag-Grid", avatar: "</>" },
+      { name: "Cypress", avatar: Cypress },
+      { name: "Playwright", avatar: Playwright },
     ],
     employerImage: TargetLogo,
   },
@@ -49,10 +67,10 @@ export const experienceList: ExperienceDetails[] = [
       "Designed and integrated more than 100 unique content pieces to increase social media impressions by 500%.",
     ],
     techstack: [
-      "Unreal Engine",
-      "Adobe Photoshop",
-      "Adobe Lightroom",
-      "Davinci Resolve",
+      { name: "Unreal Engine", avatar: UnrealEngine },
+      { name: "Adobe Photoshop", avatar: Photoshop },
+      { name: "Adobe Lightroom", avatar: Lightroom },
+      { name: "Davinci Resolve", avatar: DavinciResolve },
     ],
     employerImage: GELogo,
   },
@@ -68,7 +86,13 @@ export const experienceList: ExperienceDetails[] = [
       "Implemented multiple features to improve the user interface and experience in Gameday Live Feed component, meeting design requirements put forth by the product team.",
       "Ideated with the SVP of Creative Content and Marketing on a series of implementations to increase young adult viewership during Q2 of 2023.",
     ],
-    techstack: ["JavaScript", "HTML", "CSS", "React", "Storybook"],
+    techstack: [
+      { name: "JavaScript", avatar: faJsSquare, color: "#F0DB4F" },
+      { name: "HTML", avatar: "</>" },
+      { name: "CSS", avatar: "</>" },
+      { name: "React", avatar: faReact, color: "#61dbfb" },
+      { name: "Storybook", avatar: Storybook },
+    ],
     employerImage: MLBLogo,
   },
 ];

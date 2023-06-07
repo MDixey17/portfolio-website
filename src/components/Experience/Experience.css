@@ -53,3 +53,15 @@
 .experience-right {
     width: 33%;
 }
+
+.tech-chips {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.experience-tech-chip {
+    padding-right: 8px;
+}
