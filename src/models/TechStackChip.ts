@@ -4,4 +4,5 @@ export type TechStackChip = {
   name: string;
   avatar: string | IconDefinition;
   color?: string;
+  bgColor?: string;
 };

@@ -18,8 +18,8 @@ export const Experience = () => {
               <div className="experience-left">
                 <h4>{experience.title}</h4>
                 <h5>{experience.employer}</h5>
-                <p>{experience.location}</p>
-                <p>{experience.timespan}</p>
+                <p style={{ marginBottom: "2px" }}>{experience.location}</p>
+                <p style={{ margin: 0 }}>{experience.timespan}</p>
               </div>
               <div className="experience-right">
                 <img
@@ -28,13 +28,12 @@ export const Experience = () => {
                 />
               </div>
             </div>
-            <br />
             <ul className="experience-bulletpoint-list">
               {experience.bulletPoints.map((bulletPoint) => (
                 <li className="experience-bulletpoint-item">{bulletPoint}</li>
               ))}
             </ul>
-            <div className="tech-chips">
+            <div className="tech-chips" style={{ flexFlow: "row wrap" }}>
               {experience.techstack.map((tech) => (
                 <div className="experience-tech-chip">
                   <Chip
@@ -44,12 +43,20 @@ export const Experience = () => {
                     avatar={
                       typeof tech.avatar === "string" ? (
                         tech.avatar === "</>" ? (
-                          <Avatar>{"</>"}</Avatar>
+                          <Avatar
+                            style={{ backgroundColor: "white", color: "black" }}
+                          >
+                            {"</>"}
+                          </Avatar>
                         ) : (
-                          <Avatar alt={tech.name} src={tech.avatar} />
+                          <Avatar
+                            style={{ backgroundColor: tech.bgColor }}
+                            alt={tech.name}
+                            src={tech.avatar}
+                          />
                         )
                       ) : (
-                        <Avatar>
+                        <Avatar style={{ backgroundColor: tech.bgColor }}>
                           <FontAwesomeIcon
                             icon={tech.avatar}
                             size="2x"

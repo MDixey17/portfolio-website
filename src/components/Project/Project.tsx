@@ -21,7 +21,7 @@ export const Project = () => {
                 <h4>{project.name}</h4>
               )}
               <p>{project.description}</p>
-              <div className="tech-chips">
+              <div className="tech-chips" style={{ flexFlow: "row wrap" }}>
                 {project.techstack.map((tech) => (
                   <div className="project-tech-chip">
                     <Chip
@@ -31,12 +31,23 @@ export const Project = () => {
                       avatar={
                         typeof tech.avatar === "string" ? (
                           tech.avatar === "</>" ? (
-                            <Avatar>{"</>"}</Avatar>
+                            <Avatar
+                              style={{
+                                backgroundColor: "white",
+                                color: "black",
+                              }}
+                            >
+                              {"</>"}
+                            </Avatar>
                           ) : (
-                            <Avatar alt={tech.name} src={tech.avatar} />
+                            <Avatar
+                              style={{ backgroundColor: tech.bgColor }}
+                              alt={tech.name}
+                              src={tech.avatar}
+                            />
                           )
                         ) : (
-                          <Avatar>
+                          <Avatar style={{ backgroundColor: tech.bgColor }}>
                             <FontAwesomeIcon
                               icon={tech.avatar}
                               size="2x"

@@ -31,6 +31,7 @@
     height: 20vh;
     width: auto;
     align-self: center;
+    padding: 12px 0;
     border-radius: 8px;
 }
 
@@ -44,8 +45,9 @@
 }
 
 .tech-chips {
+    align-self: center;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -53,4 +55,5 @@
 
 .project-tech-chip {
     padding-right: 8px;
+    padding-bottom: 8px;
 }

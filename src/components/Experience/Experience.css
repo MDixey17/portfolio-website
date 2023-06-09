@@ -56,7 +56,7 @@
 
 .tech-chips {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -64,4 +64,5 @@
 
 .experience-tech-chip {
     padding-right: 8px;
+    padding-bottom: 8px;
 }

@@ -33,8 +33,18 @@ export const projectList: ProjectDetails[] = [
     description:
       "A Rocket League match history Discord bot to rapidly provide information for content teams. View relevant recent matches and competitive rosters throughout Collegiate Rocket League via Discord Slash Commands.",
     techstack: [
-      { name: "Discord API", avatar: faDiscord, color: "#7289d9" },
-      { name: "JavaScript", avatar: faJsSquare, color: "#F0DB4F" },
+      {
+        name: "Discord API",
+        avatar: faDiscord,
+        color: "#7289d9",
+        bgColor: "black",
+      },
+      {
+        name: "JavaScript",
+        avatar: faJsSquare,
+        color: "#F0DB4F",
+        bgColor: "black",
+      },
       { name: "SQLite", avatar: Sqlite },
     ],
     thumbnail: GoldyBot,
@@ -45,8 +55,18 @@ export const projectList: ProjectDetails[] = [
     description:
       "A Discord bot that listens to various competitive Rocket League communities' requests for scrimmages. Search for scrimmages and filter by MMR, date, and time.",
     techstack: [
-      { name: "Discord API", avatar: faDiscord, color: "#7289d9" },
-      { name: "JavaScript", avatar: faJsSquare, color: "#F0DB4F" },
+      {
+        name: "Discord API",
+        avatar: faDiscord,
+        color: "#7289d9",
+        bgColor: "black",
+      },
+      {
+        name: "JavaScript",
+        avatar: faJsSquare,
+        color: "#F0DB4F",
+        bgColor: "black",
+      },
       { name: "SQLite", avatar: Sqlite },
       { name: "Web Sockets", avatar: "</>" },
     ],
@@ -58,7 +78,7 @@ export const projectList: ProjectDetails[] = [
     description:
       "An Epic Games open source project intended for high quality sports motion graphics, I was part of a small team that took the project and tailor made it to be Golden Gopher themed. This included designing custom textures, 3D models, and modulating the project to easily be used for other collegiate esports programs across the United States.",
     techstack: [
-      { name: "Unreal Engine", avatar: UnrealEngine },
+      { name: "Unreal Engine", avatar: UnrealEngine, bgColor: "white" },
       { name: "C++", avatar: Cplusplus },
       { name: "Blender", avatar: Blender },
       { name: "Adobe Photoshop", avatar: Photoshop },
