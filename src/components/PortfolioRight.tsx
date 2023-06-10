@@ -11,7 +11,7 @@ export const PortfolioRight = () => {
       <Experience />
       <hr style={{ width: "100%" }} id="projects" className="section-line" />
       <Project />
-      <hr style={{ width: "100%" }} id="projects" className="section-line" />
+      <hr style={{ width: "100%" }} className="section-line" />
     </div>
   );
 };

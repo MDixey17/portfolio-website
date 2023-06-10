@@ -41,7 +41,6 @@
 
 .navbar-left-container a {
     text-decoration: none;
-    color: var(--th-white);
     transition: 0.3s;
 }
 
@@ -65,7 +64,6 @@
 
 .navbar-right-container a {
     text-decoration: none;
-    color: var(--th-white);
 }
 
 .navbar-right-container a:hover {
@@ -75,6 +73,14 @@
 .navbar-social-logo {
     padding-left: 8px;
     padding-right: 8px;
+}
+
+.active-navbar {
+    color: var(--th-blue-two);
+}
+
+.not-active-navbar {
+    color: var(--th-white);
 }
 
 @media only screen and (max-width: 992px) {
