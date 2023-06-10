@@ -99,7 +99,7 @@ export const projectList: ProjectDetails[] = [
   {
     name: "Dystopian Defier",
     description:
-      "Welcome to ruined city of Varkamon. You play as Su, a rebel renegade fighting hordes of enemy bots in a dystopian future. However, your life is directly tied to your money. As you fight you can grow your health pool, but beware as the legion of bots grows stronger with each passing second.",
+      "Welcome to the ruined city of Varkamon. You play as Su, a rebel renegade fighting hordes of enemy bots in a dystopian future. However, your life is directly tied to your money. As you fight you can grow your health pool, but beware as the legion of bots grows stronger with each passing second.",
     techstack: [
       { name: "Unity", avatar: faUnity, color: "#000000" },
       { name: "C#", avatar: Csharp },
