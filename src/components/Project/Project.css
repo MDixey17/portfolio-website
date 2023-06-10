@@ -39,6 +39,7 @@
 .project-link {
     text-decoration: none;
     color: var(--th-white);
+    transition: 0.3s;
 }
 
 .project-link :hover {

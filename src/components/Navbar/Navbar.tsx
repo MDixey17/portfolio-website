@@ -7,7 +7,9 @@ export const Navbar = () => {
   return (
     <div className="navbar-wrapper">
       <div className="navbar-left-container">
-        <strong>Matthew B. Dixey</strong>
+        <a href="#about">ABOUT</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#projects">PROJECTS</a>
       </div>
       <div className="navbar-center-container" />
       <div className="navbar-right-container">

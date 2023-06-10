@@ -5,8 +5,6 @@ import { Avatar, Chip } from "@material-ui/core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Experience = () => {
-  // TODO: add the Material UI chip component, have it include the avatar, avatar for each techstack is the logo >:)
-
   return (
     <div className="experience-container">
       <h3>EXPERIENCE</h3>

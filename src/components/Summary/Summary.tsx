@@ -4,6 +4,7 @@ import "./Summary.css";
 export const Summary = () => {
   return (
     <div className="summary-container">
+      <h3>ABOUT</h3>
       <p>
         Being an avid video gamer, I was always fascinated with how digital
         applications worked underneath the hood. To this point in my career,
