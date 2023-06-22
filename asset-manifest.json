@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.8aa785a1.css",
+    "main.js": "/portfolio-website/static/js/main.b5d2ba8b.js",
+    "static/media/headshot-square.png": "/portfolio-website/static/media/headshot-square.d79b0cd44e52ce62276b.png",
+    "static/media/dystopian-defier.png": "/portfolio-website/static/media/dystopian-defier.6da89d86ce8e13719af2.png",
+    "static/media/hype-chamber.png": "/portfolio-website/static/media/hype-chamber.2facdb8439f392ad7733.png",
+    "static/media/goldybot.png": "/portfolio-website/static/media/goldybot.7294e705baef4be16f22.png",
+    "static/media/scrimbot.png": "/portfolio-website/static/media/scrimbot.7d692143d54419c752b1.png",
+    "static/media/blender.png": "/portfolio-website/static/media/blender.c38a137e947d83279a08.png",
+    "static/media/davinciresolve.png": "/portfolio-website/static/media/davinciresolve.eae949b6ead94c640163.png",
+    "static/media/kotlin.png": "/portfolio-website/static/media/kotlin.22466d75cffa0fe24a26.png",
+    "static/media/strelka.png": "/portfolio-website/static/media/strelka.539abb0422b0bd39a9f4.png",
+    "static/media/gopheresports.png": "/portfolio-website/static/media/gopheresports.4e4cb429e3cb871d1bfe.png",
+    "static/media/c++.png": "/portfolio-website/static/media/c++.64f637357bce0ccc8384.png",
+    "static/media/sqlite.png": "/portfolio-website/static/media/sqlite.4fe75c0829d18d78b9fd.png",
+    "static/media/typescript.png": "/portfolio-website/static/media/typescript.659e4b9351cf1baa6930.png",
+    "static/media/background-square-blur25-dark.png": "/portfolio-website/static/media/background-square-blur25-dark.4feb0255e942766bedc7.png",
+    "static/media/target.png": "/portfolio-website/static/media/target.28ad8a8aceda54fc2ff5.png",
+    "static/media/photoshop.png": "/portfolio-website/static/media/photoshop.89aa826cc8651c84f392.png",
+    "static/media/lightroom.png": "/portfolio-website/static/media/lightroom.b42da0697defc5669e50.png",
+    "static/media/mlb.png": "/portfolio-website/static/media/mlb.b25424c1e7674219f14a.png",
+    "static/media/storybook.svg": "/portfolio-website/static/media/storybook.c143760c5be7f175b06e6be31349892f.svg",
+    "static/media/csharp.svg": "/portfolio-website/static/media/csharp.04d9d2bb18b9781567f7340691dcc686.svg",
+    "static/media/unrealengine.svg": "/portfolio-website/static/media/unrealengine.149d8558e2150c1750e86060d7862e6a.svg",
+    "index.html": "/portfolio-website/index.html",
+    "static/media/mongodb.svg": "/portfolio-website/static/media/mongodb.1aca075d5cce0819fea7ea0902d94ce4.svg",
+    "main.8aa785a1.css.map": "/portfolio-website/static/css/main.8aa785a1.css.map",
+    "main.b5d2ba8b.js.map": "/portfolio-website/static/js/main.b5d2ba8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8aa785a1.css",
+    "static/js/main.b5d2ba8b.js"
+  ]
+}
