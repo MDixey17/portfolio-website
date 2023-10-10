@@ -1,3 +1,4 @@
+import Overlay from "../../assets/projects/overlay.png";
 import GoldyBot from "../../assets/projects/goldybot.png";
 import ScrimBot from "../../assets/projects/scrimbot.png";
 import HypeChamber from "../../assets/projects/hype-chamber.png";
@@ -8,6 +9,7 @@ import {
   faDiscord,
   faJsSquare,
   faPython,
+  faReact,
   faUnity,
 } from "@fortawesome/free-brands-svg-icons";
 import UnrealEngine from "../../assets/icons/unrealengine.svg";
@@ -16,6 +18,7 @@ import Sqlite from "../../assets/icons/sqlite.png";
 import Blender from "../../assets/icons/blender.png";
 import Cplusplus from "../../assets/icons/c++.png";
 import Csharp from "../../assets/icons/csharp.svg";
+import TypeScript from "../../assets/icons/typescript.png";
 
 type ProjectDetails = {
   name: string;
@@ -28,6 +31,34 @@ type ProjectDetails = {
 // When ready to add a new project, copy and paste the following line at the front of the list
 // { name: "", description: "", techstack: [], thumbnail: "" },
 export const projectList: ProjectDetails[] = [
+  {
+    name: "Custom Rocket League Broadcast Overlay",
+    description:
+      "A University of Minnesota branded OBS overlay to provide a modern esports viewing experience to spectators of all ages.",
+    techstack: [
+      {
+        name: "React",
+        avatar: faReact,
+        color: "#61dbfb",
+        bgColor: "black",
+      },
+      { name: "Web Sockets", avatar: "</>" },
+    ],
+    thumbnail: Overlay,
+    link: "https://www.twitch.tv/gopheresports",
+  },
+  {
+    name: "Rocket League AI Replay Parser",
+    description:
+      "A custom Rocket League replay file parser that extracts advanced statistics to be sent through OpenAI's ChatGPT to identify weaknesses in individual gameplay.",
+    techstack: [
+      {
+        name: "TypeScript",
+        avatar: TypeScript,
+      },
+    ],
+    thumbnail: "",
+  },
   {
     name: "GoldyBot",
     description:

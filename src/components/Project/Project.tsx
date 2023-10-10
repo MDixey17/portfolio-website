@@ -60,11 +60,13 @@ export const Project = () => {
                   </div>
                 ))}
               </div>
-              <img
-                className="project-thumbnail"
-                src={project.thumbnail}
-                alt={project.name}
-              />
+              {project.thumbnail !== "" && (
+                <img
+                  className="project-thumbnail"
+                  src={project.thumbnail}
+                  alt={project.name}
+                />
+              )}
             </div>
           </>
         ))}

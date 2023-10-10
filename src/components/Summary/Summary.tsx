@@ -7,8 +7,8 @@ export const Summary = () => {
       <h3>ABOUT</h3>
       <p>
         Being an avid video gamer, I was always fascinated with how digital
-        applications worked underneath the hood. To this point in my career,
-        I've had the honor of working for{" "}
+        applications worked underneath the hood. At this point in my young
+        career, I've had the honor of working for{" "}
         <a href="https://www.mlb.com">America's pastime</a> and a{" "}
         <a href="https://www.target.com">Fortune 50 retailer.</a>
         <br />
@@ -18,10 +18,9 @@ export const Summary = () => {
         real-world experiences while creating projects in the esports space.
         <br />
         <br />
-        When I'm away-from-keyboard, I'm watching the Minnesota Twins, Minnesota
-        Wild, or whatever team Lionel Messi plays for, going bowling with family
-        and friends, playing Spikeball, and watching the latest Star Wars or
-        Marvel releases.
+        When I'm away-from-keyboard, I'm watching Minnesota sports teams (Twins,
+        Wild, Vikings, and Loons) and the top soccer teams, exercising, and
+        watching the latest Star Wars or Marvel releases.
       </p>
     </div>
   );

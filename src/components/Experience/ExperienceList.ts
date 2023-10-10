@@ -19,6 +19,8 @@ import Photoshop from "../../assets/icons/photoshop.png";
 import Lightroom from "../../assets/icons/lightroom.png";
 import DavinciResolve from "../../assets/icons/davinciresolve.png";
 import Storybook from "../../assets/icons/storybook.svg";
+import Docker from "../../assets/icons/docker.png";
+import Postgres from "../../assets/icons/postgres.png";
 
 type ExperienceDetails = {
   employer: string;
@@ -39,20 +41,23 @@ export const experienceList: ExperienceDetails[] = [
     location: "Brooklyn Park, MN",
     timespan: "January 2023 - Present",
     bulletPoints: [
-      "Participated in Target's Technology Leadership Program for one year to understand company culture, environment, and engineering standards.",
-      "Enhanced the full-stack application used by sourcing managers to show realtime statistics with vendor bids and associated profit margins.",
-      "Contributed to a Slack Bot project with fellow TLPs to improve the Target workspace.",
+      "Implemented enhancements to multiple full-stack applications used by all sourcing and supply chain managers that led to saving the company over $60,000 in a single use case.",
+      "Mastered several modern programming languages and frameworks such as TypeScript, React, Kotlin, Spring Boot, MongoDB, PostgreSQL, and Docker through collaboration with senior engineers.",
+      "Pioneered a Slack Bot project with other program members to uniquely benefit team members across the company using Golang and PostgreSQL.",
+      "Mentored 4 recent college graduates on engineering expectations, transitioning to full-time employment, and understanding the basics of unique technologies used by the company.",
     ],
     techstack: [
-      { name: "Kotlin", avatar: KotlinIcon },
-      { name: "MongoDB", avatar: MongoDb },
-      { name: "Spring Boot", avatar: "</>" },
       { name: "Java", avatar: faJava, color: "#f89820", bgColor: "black" },
+      { name: "Kotlin", avatar: KotlinIcon },
+      { name: "Spring Boot", avatar: "</>" },
+      { name: "MongoDB", avatar: MongoDb },
+      { name: "PostgreSQL", avatar: Postgres },
       { name: "React", avatar: faReact, color: "#61dbfb", bgColor: "black" },
       { name: "TypeScript", avatar: TypeScript },
       { name: "Ag-Grid", avatar: "</>" },
       { name: "Cypress", avatar: Cypress, bgColor: "white" },
       { name: "Playwright", avatar: Playwright },
+      { name: "Docker", avatar: Docker },
     ],
     employerImage: TargetLogo,
   },

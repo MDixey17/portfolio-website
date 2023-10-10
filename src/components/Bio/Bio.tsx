@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ProHeadshot from "../../assets/headshot-square.png";
+import ProHeadshot from "../../assets/headshot2-square.jpg";
 // import Spiderman from "../../assets/spiderman-logo.png";
 // import Mandalorian from "../../assets/mando.png";
 import "./Bio.css";
