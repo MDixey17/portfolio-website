@@ -1,4 +1,8 @@
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
@@ -67,6 +71,12 @@ export const Navbar = () => {
             className="navbar-social-logo"
           >
             <FontAwesomeIcon icon={faLinkedin} color="#49a1eb" size="2x" />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCglLpH58CRfi660yU4wpe8w"
+            className="navbar-social-logo"
+          >
+            <FontAwesomeIcon icon={faYoutube} color="#b2071d" size="2x" />
           </a>
         </div>
       </div>
