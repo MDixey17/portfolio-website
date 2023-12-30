@@ -92,3 +92,12 @@
     }
 }
 
+@media only screen and (max-width: 650px) {
+    .navbar-left-container {
+        font-size: 10px;
+    }
+    .navbar-center-container {
+        display: none;
+    }
+}
+

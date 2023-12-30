@@ -1,7 +1,7 @@
 import React from "react";
 import "./Experience.css";
 import { experienceList } from "./ExperienceList";
-import { Avatar, Chip } from "@material-ui/core";
+import { Avatar, Chip } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Experience = () => {
@@ -31,7 +31,10 @@ export const Experience = () => {
                 <li className="experience-bulletpoint-item">{bulletPoint}</li>
               ))}
             </ul>
-            <div className="tech-chips" style={{ flexFlow: "row wrap" }}>
+            <div
+              className="tech-chips tech-chip-padding"
+              style={{ flexFlow: "row wrap" }}
+            >
               {experience.techstack.map((tech) => (
                 <div className="experience-tech-chip">
                   <Chip

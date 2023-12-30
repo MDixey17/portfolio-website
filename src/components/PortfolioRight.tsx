@@ -1,3 +1,4 @@
+import { Certificates } from "./Certificates/Certificates";
 import { Experience } from "./Experience/Experience";
 import { Project } from "./Project/Project";
 import { Summary } from "./Summary/Summary";
@@ -11,6 +12,12 @@ export const PortfolioRight = () => {
       <Experience />
       <hr style={{ width: "100%" }} id="projects" className="section-line" />
       <Project />
+      <hr
+        style={{ width: "100%" }}
+        id="certificates"
+        className="section-line"
+      />
+      <Certificates />
       <hr style={{ width: "100%" }} className="section-line" />
     </div>
   );

@@ -1,29 +1,28 @@
-import React from "react";
-import "./Project.css";
-import { projectList } from "./ProjectList";
 import { Avatar, Chip } from "@mui/material";
+import { certificateList } from "./CertificateList";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./Certificates.css";
 
-export const Project = () => {
+export const Certificates = () => {
   return (
-    <div className="project-container">
-      <h3>PROJECTS</h3>
+    <div className="certificate-container">
+      <h3>CERTIFICATIONS</h3>
       <br />
-      <div className="project-content">
-        {projectList.map((project) => (
+      <div className="certificate-content">
+        {certificateList.map((certificate) => (
           <>
-            <div className="project-info">
-              {project.link !== undefined ? (
-                <a href={project.link} className="project-link">
-                  <h4>{project.name} &#x2197;</h4>
-                </a>
-              ) : (
-                <h4>{project.name}</h4>
-              )}
-              <p>{project.description}</p>
+            <div className="certificate-info">
+              <a href={certificate.link} className="certificate-link">
+                <h4>{certificate.name} &#x2197;</h4>
+              </a>
+              <p>
+                Issued By: {certificate.issuer}
+                <br />
+                Date Issued: {certificate.date}
+              </p>
               <div className="tech-chips" style={{ flexFlow: "row wrap" }}>
-                {project.techstack.map((tech) => (
-                  <div className="project-tech-chip">
+                {certificate.techstack.map((tech) => (
+                  <div className="certificate-tech-chip">
                     <Chip
                       label={tech.name}
                       variant="outlined"
@@ -60,13 +59,6 @@ export const Project = () => {
                   </div>
                 ))}
               </div>
-              {project.thumbnail !== "" && (
-                <img
-                  className="project-thumbnail"
-                  src={project.thumbnail}
-                  alt={project.name}
-                />
-              )}
             </div>
           </>
         ))}

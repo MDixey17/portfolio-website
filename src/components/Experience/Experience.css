@@ -63,6 +63,10 @@
     justify-content: center;
 }
 
+.tech-chip-padding {
+    padding-bottom: 40px;
+}
+
 .experience-tech-chip {
     padding-right: 8px;
     padding-bottom: 8px;

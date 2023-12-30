@@ -11,10 +11,12 @@ export const Navbar = () => {
   const [aboutActive, setAboutActive] = useState<boolean>(true); // when the page first loads, this is always true
   const [experienceActive, setExperienceActive] = useState<boolean>(false);
   const [projectsActive, setProjectsActive] = useState<boolean>(false);
+  const [certificatesActive, setCertificatesActive] = useState<boolean>(false);
 
   useEffect(() => {
     const experienceLine = document.getElementById("experience");
     const projectsLine = document.getElementById("projects");
+    const certificatesLine = document.getElementById("certificates");
 
     const listenScrollEvent = () => {
       if (
@@ -24,14 +26,25 @@ export const Navbar = () => {
         setAboutActive(false);
         setExperienceActive(true);
         setProjectsActive(false);
-      } else if (window.scrollY >= projectsLine!.offsetTop - 100) {
+        setCertificatesActive(false);
+      } else if (
+        window.scrollY > projectsLine!.offsetTop - 100 &&
+        window.scrollY < certificatesLine!.offsetTop - 349
+      ) {
         setAboutActive(false);
         setExperienceActive(false);
         setProjectsActive(true);
+        setCertificatesActive(false);
+      } else if (window.scrollY >= certificatesLine!.offsetTop - 349) {
+        setAboutActive(false);
+        setExperienceActive(false);
+        setProjectsActive(false);
+        setCertificatesActive(true);
       } else {
         setAboutActive(true);
         setExperienceActive(false);
         setProjectsActive(false);
+        setCertificatesActive(false);
       }
     };
 
@@ -58,6 +71,12 @@ export const Navbar = () => {
           className={projectsActive ? "active-navbar" : "not-active-navbar"}
         >
           PROJECTS
+        </a>
+        <a
+          href="#certificates"
+          className={certificatesActive ? "active-navbar" : "not-active-navbar"}
+        >
+          CERTIFICATIONS
         </a>
       </div>
       <div className="navbar-center-container" />
